@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="./highscores.html">View The Highscores</a>
+        <p>Time: <span id="time"></span></p>
+    </header>
+    <p>Score: <span id="score">0</span></p>
+    <main>
+        <section id="start">
+            <h1>Code Quiz</h1>
+            <p>Click the start button to start quiz</p>
+            <button id="start-button">Start</button>
+
+        </section>
+        <section id="answer-display" style="display:none"></section>
+        <section id="quiz" style="display:none">
+            <h2 id="question"></h2>
+            <ul id="choices"></ul>
+        </section>
+        <section id="incorrect" style="display:none;">wrong</section> </section>
+
+        <section id="end" style="display:none">
+            end section
+            <a href="./highscores.html"></a>
+        </section>
+        <section id="end-screen" style="display: none;">
+            <h1>Quiz Over</h1>
+            <h2>Highscores:</h2>
+            <ul id="highscore-list"></ul>
+            <a href="./highscores.html">
+                <button>Submit score</button>
+            </a>
+            
+        </section>
+            
+
+    </main>
+
+<script src="./quiz.js"></script>
+</body>
+</html
